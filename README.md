@@ -2,22 +2,8 @@
 
 LIRI is a Language interpretation and Recognition Interface and a command line application using node app that takes in parameteres and gives you back data.
 
-
-
-
-### Insturctions:
-
-1. LIRI was created to perform searches: Bands in Town for concerts, and OMDB for movies, Spotify for song tracks
-
-2. The application uses the `axios` package to connect to the various APIs, as well as other modules for various tasks:
-
-   * [Node-Spotify-API](https://www.npmjs.com/package/node-spotify-api)
-   * [Axios](https://www.npmjs.com/package/axios)
-   * [Bands In Town API](http://www.artists.bandsintown.com/bandsintown-api)
-   * [Moment](https://www.npmjs.com/package/moment)
-   * [DotEnv](https://www.npmjs.com/package/dotenv)
    
- ### The instructions are as follows:
+ ### Instructions:
  
  1. `node liri.js concert-this <artist/band name here>` - This will return:
 
@@ -26,6 +12,7 @@ LIRI is a Language interpretation and Recognition Interface and a command line a
    * Name of the venue
    * Venue location
    * Date of the Event
+
 
 
 2. `node liri.js spotify-this-song'<song name here>'` - This will return:
@@ -37,6 +24,7 @@ LIRI is a Language interpretation and Recognition Interface and a command line a
    * A preview link of the son
    * The album
    * If no song is provided the default is "The Sign" by Ace of Base.
+
 
 
 3. `node liri.js movie-this '<movie name here>'` - This will return:
@@ -52,6 +40,7 @@ LIRI is a Language interpretation and Recognition Interface and a command line a
    * Plot of the movie.
    * Actors in the movie.
    * If a movie isn't provided, a default movie, 'Mr. Nobody', will be used.
+
 
 
 4. `node liri.js do-what-it-says`
