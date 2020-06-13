@@ -4,7 +4,7 @@
 LIRI is a Language interpretation and Recognition Interface and a command line application using node app that takes in parameteres and gives you back data. LIRI was created to perform searches: Bands in Town for concerts, and OMDB for movies, Spotify for song tracks
 
 ### Setup:
-1. Clone the repository
+1. Clone the repository [here](https://github.com/skang91/liri-node-app.git)
 2. Run npm install, and the following packages should be installed:
    * [Node-Spotify-API](https://www.npmjs.com/package/node-spotify-api)
    * [Axios](https://www.npmjs.com/package/axios)
