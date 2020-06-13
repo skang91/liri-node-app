@@ -1,9 +1,16 @@
 # liri-node-app (LIRI Bot)
 
-LIRI is a Language interpretation and Recognition Interface and a command line application using node app that takes in parameteres and gives you back data.
+LIRI is a Language interpretation and Recognition Interface and a command line application using node app that takes in parameteres and gives you back data. LIRI was created to perform searches: Bands in Town for concerts, and OMDB for movies, Spotify for song tracks
+
+### Technologies Used
+   * [Node-Spotify-API](https://www.npmjs.com/package/node-spotify-api)
+   * [Axios](https://www.npmjs.com/package/axios)
+   * [Bands In Town API](http://www.artists.bandsintown.com/bandsintown-api)
+   * [Moment](https://www.npmjs.com/package/moment)
+   * [DotEnv](https://www.npmjs.com/package/dotenv)
 
    
- ### Instructions:
+### Instructions:
  
  1. `node liri.js concert-this <artist/band name here>` - This will return:
 
