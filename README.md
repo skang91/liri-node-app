@@ -57,3 +57,5 @@ LIRI is a Language interpretation and Recognition Interface and a command line a
 ![screenshot](img/do-what-it-says.png)
 
    * LIRI use the commands listed in random.txt and then call one of LIRI's functions.
+
+5. Enjoy!
